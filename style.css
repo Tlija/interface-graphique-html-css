@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,200;1,300;1,400&display=swap');
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #F1EBE2;
+
+
+} 
+
+body{
+    color: #F1EBE2;
+}
+header{
+
+position: absolute;
+width: 1345px;
+height: 60px;
+left: 167px;
+top: 0px;
+background: #F1EBE2;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+}
+#inpserch{
+box-sizing: border-box;
+position: absolute;
+width: 480px;
+height: 39px;
+left: 210px;
+top: 11px;
+cursor: pointer;
+
+background: #FDF9F3;
+border: 1px solid #E8E8E8;
+border-radius: 19.5px;
+}
+.serche placeholder{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 12px;
+    /* identical to box height, or 86% */
+    color: #E2E2E1;
+    cursor: pointer;
+    
+}
+.NavHieght{
+position: absolute;
+width: 168px;
+height: 982px;
+left: -1px;
+top: 0px;
+background: #2F4858;
+background-image: url("./Untitled/Blob\ Shape-1.png"),url(./Untitled/Blob\ Shape-1.png),url(./Untitled/Blob\ Shape.png);
+
+background-repeat: no-repeat, no-repeat, no-repeat;
+background-position: bottom right, right, left;
+
+
+
+}
+.NavBar{
+background: #F1EBE2;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+}
+.home{
+    position: absolute;
+width: 148px;
+height: 39px;
+left: 9px;
+top: 62px;
+background: #F0E3CE;
+margin-top: 15px;
+border-radius: 8px;
+
+}
+.home h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+    
+}
+.service h4{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height, or 122% */
+cursor: pointer;
+
+color: #A8A8A8;
+}
+
+
+
+.containerNavHigth h2{
+position: absolute;
+height:20px;
+left:40px;
+right: 20px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 550;
+font-size: 15px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+
+color: #2F4858;
+
+}
+.home img{
+position: absolute;
+left:10px;
+cursor: pointer;
+
+
+top:10px;
+
+}
+.containerNavHigth h3{
+    color: #FFFFFF;
+    position: absolute;
+    height:20px;
+    left:40px;
+     right: 20px;
+      top: 10px; 
+      font-size: 35px;
+}
+.donne{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.donne img{
+    margin-right: 35px;
+    width: 11px;
+    cursor: pointer;
+
+}
+.service{
+
+    padding-left:20px ;
+    padding-top: 130px;
+}
+.service3{
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+
+.delete{
+    position: absolute;
+width: 28px;
+height: 28px;
+left: 20px;
+top: 934px;
+
+background: #587587;
+border-radius: 6px;
+
+}
+.delete img{
+    position: absolute;
+left: 6px;
+right:2px;
+top: 8px;
+cursor: pointer;
+
+color: #F3F3F3;
+}
+.automate{
+box-sizing: border-box;
+
+position: absolute;
+width: 105.92px;
+height: 30px;
+left: 901px;
+top: 15px;
+cursor: pointer;
+border: 1px solid #889197;
+border-radius: 15px;
+}
+.automate p{
+position: absolute;
+top: 5px;
+left: 35px;
+
+
+margin-left: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: right;
+
+color: #889197;
+}
+.automate img{
+padding-left: 3px;
+margin-left: 10px;
+}
+
+.light{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 105.92px;
+    height: 30px;
+    left: 55%;
+    top: 15px;
+    cursor: pointer;
+}
+.button{
+    
+position: absolute;
+width: 105.92px;
+height: 30px;
+left: 1230px;
+top: 15px;
+cursor: pointer;
+
+background: #E28D5A;
+border-radius: 15px ;
+}
+.button p{
+ padding: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height, or 108% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.Name{
+padding-left: 78%;
+display: flex;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+}
+.image img{
+    margin-top: 5px;
+    background-color: #E28D5A;
+    border-radius: 90px;
+}
+.firstName h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 13px;
+/* or 108% */
+
+text-align: right;
+
+color: #858585;
+} 
+.firstName p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 13px;
+/* or 144% */
+color: #B4B2B2;
+}
+.firstName{
+   padding-right: 10px;
+   padding-top: 12px;
+}
+.Name{
+    margin-right: 15px;
+}
+.container{
+position: absolute;
+width: 1346px;
+height: 982px;
+left: 166px;
+top: 0px;
+
+background: #F1EBE2;
+background-image: url("./Untitled/Blob\ Shape-1.png"),url(./Untitled/Blob\ Shape-1.png),url(./Untitled/Blob\ Shape.png),url(./Untitled/Blob\ Shape\ \(4\).png),url(./Untitled/Blob\ Shape\ \(2\).png),url(./Untitled/Blob\ Shape\ \(4\).png);
+
+background-repeat: no-repeat, no-repeat, no-repeat;
+background-position: bottom ,right, right, left,bottom,left;
+}
+.content{
+ 
+    
+}
+.calanderie{
+    position: absolute;
+width: 680px;
+height: 374px;
+left: 920px;
+top: 148px;
+cursor: pointer;
+   
+    
+}
+
+.title{
+position: absolute;
+left: 38rem;
+top: 6rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 23px;
+/* identical to box height, or 88% */
+
+}
+.title h3,span{
+color: #2F4858;
+}
+span{
+    color: #2F4858;
+    font-weight: 500;
+}
+.title p{
+    color: #2F4858;
+    font-weight: 500;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.cart1{
+    position: absolute;
+    width: 680px;
+    height: 374px;
+    left: 400px;
+    top: 170px;
+    cursor: pointer;
+}
+.cart2{
+    position: absolute;
+    width: 680px;
+    height: 374px;
+    left: 400px;
+    top: 570px;
+    cursor: pointer;
+}
+.cart3{
+    position: absolute;
+    width: 680px;
+    height: 374px;
+    left: 920px;
+    top: 570px;
+    cursor: pointer;
+}
+.rectengel{
+position: absolute;
+width: 54px;
+height: 197px;
+left: 1622px;
+top: 221px;
+
+background: #2F4858;
+box-shadow: -1px 0px 10px rgba(0, 0, 0, 0.15);
+border-radius: 12px 0px 0px 12px;
+}
+.rectengel ul{
+    position: absolute;
+    left: 25px;
+    right: 20px;
+    align-items: center;
+
+}
+.rectengel  ul li{
+    padding-top:18px;
+    margin-right: 9px;
+    padding-right: 30px;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+.footer{
+    
+position: absolute;
+width: 625px;
+height: 80px;
+left: 650px;
+top: 900px;
+}
+.footer img{
+    cursor: pointer;
+}
